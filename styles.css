@@ -1,0 +1,56 @@
+body{
+    background: rgb(9,9,9);
+    background: linear-gradient(90deg, rgba(9,9,9,1) 0%, rgba(50,50,50,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.container-1{
+    background-image: url(images/code-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Efecto shadow en texto */
+.text-shadow{
+    text-shadow: 0 0 10px black,
+                 0 0 10px black;
+}
+
+.text-shadow-1{
+    text-shadow: 0 0 10px gray,
+                 0 0 10px gray;
+}
+
+/* negrita */
+.btn-light{
+    font-weight: bold;
+}
+
+.btn-light:hover{
+    box-shadow: 0 0 5px white,
+                    0 0 20px white,
+                    0 0 30px white;
+}
+
+.card{
+    background: rgb(66,66,66);
+    background: radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
+    box-shadow: 0 0 5px white;
+}
+
+.img-cards-profile{
+    border-radius: 5%;
+}
+
+.container-3{
+    background-color: white;
+}
+
+.url-copyright{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.url-copyright:hover{
+    text-decoration:underline;
+}
